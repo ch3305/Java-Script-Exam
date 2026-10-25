@@ -10,8 +10,8 @@ if(IsEmpty.length==0)
     return;
 }  
 const box2=document.createElement('div');
-box2.style.width="40px";
-box2.style.height="40px";
+box2.style.width="30px";
+box2.style.height="30px";
 box2.style.backgroundColor="red";
 box2.textContent=index++;
 box2.style.textAlign="center";
