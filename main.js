@@ -6,7 +6,7 @@ button.addEventListener("click",(event)=>{
 !b.hasChildNodes())
 if(IsEmpty.length==0)
 {
-    alert("finish!!!")
+    alert("finish!!!??")
     return;
 }  
 const box2=document.createElement('div');
