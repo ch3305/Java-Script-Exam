@@ -12,7 +12,7 @@ if(IsEmpty.length==0)
 const box2=document.createElement('div');
 box2.style.width="50px";
 box2.style.height="50px";
-box2.style.backgroundColor="pink";
+box2.style.backgroundColor="black";
 box2.textContent=index++;
 box2.style.textAlign="center";
 box2.style.justifyContent="center";
