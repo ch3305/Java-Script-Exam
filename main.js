@@ -9,8 +9,8 @@ button.addEventListener("click", (event) => {
     }
 
     const box2 = document.createElement('div');
-    box2.style.width = "30px";
-    box2.style.height = "30px";
+    box2.style.width = "50px";
+    box2.style.height = "50px";
     box2.style.backgroundColor = "white";
     box2.textContent = index++;
     box2.style.textAlign = "center";
