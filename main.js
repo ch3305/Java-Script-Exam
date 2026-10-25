@@ -1,6 +1,7 @@
 const button=document.querySelector(".button");
 const box=document.querySelectorAll(".box");
 let index=1;
+
 button.addEventListener("click", (event) => {
     const IsEmpty = Array.from(box).filter((b) => !b.hasChildNodes());
     if (IsEmpty.length == 0) {
@@ -17,3 +18,4 @@ button.addEventListener("click", (event) => {
     const num = Math.floor(Math.random() * box.length);
     box[num].appendChild(box2);
 });
+
